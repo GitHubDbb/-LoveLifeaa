@@ -19,6 +19,9 @@
 		BC6D7AF01C33D6060093F8CC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D7AEF1C33D6060093F8CC /* CoreTelephony.framework */; };
 		BC6D7AF21C33D6140093F8CC /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D7AF11C33D6140093F8CC /* libstdc++.tbd */; };
 		BC6D7AF41C33D61E0093F8CC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D7AF31C33D61E0093F8CC /* libz.tbd */; };
+		BC96F1691C34C25400484F34 /* FoodCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC96F1681C34C25400484F34 /* FoodCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		BC96F16C1C34C27200484F34 /* FoodTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC96F16B1C34C27200484F34 /* FoodTitleCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		BC96F16F1C34C3C700484F34 /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC96F16E1C34C3C700484F34 /* FoodModel.m */; settings = {ASSET_TAGS = (); }; };
 		BCBBA4AC1C321A130087662A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBBA4AB1C321A130087662A /* main.m */; };
 		BCBBA4AF1C321A130087662A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBBA4AE1C321A130087662A /* AppDelegate.m */; };
 		BCBBA4B21C321A130087662A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBBA4B11C321A130087662A /* ViewController.m */; };
@@ -231,6 +234,17 @@
 		BCBBA7271C32738C0087662A /* GuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBBA7261C32738C0087662A /* GuidePageView.m */; settings = {ASSET_TAGS = (); }; };
 		BCBBA72A1C3277620087662A /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBBA7291C3277620087662A /* HomeModel.m */; settings = {ASSET_TAGS = (); }; };
 		BCBBA72E1C3279690087662A /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBBA72D1C3279690087662A /* HomeCell.m */; settings = {ASSET_TAGS = (); }; };
+		BCCBB58A1C3BDF2F001354B5 /* StepCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBB5891C3BDF2F001354B5 /* StepCell.m */; settings = {ASSET_TAGS = (); }; };
+		BCCBB58D1C3BDFA7001354B5 /* StepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBB58C1C3BDFA7001354B5 /* StepModel.m */; settings = {ASSET_TAGS = (); }; };
+		BCCBB5901C3BE6EF001354B5 /* FoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBB58F1C3BE6EF001354B5 /* FoodDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BCCBB5931C3BE71A001354B5 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBB5921C3BE71A001354B5 /* PlayViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BCCBB5961C3BF1CD001354B5 /* DetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBB5951C3BF1CC001354B5 /* DetailModel.m */; settings = {ASSET_TAGS = (); }; };
+		BCCBB5991C3BF289001354B5 /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBB5981C3BF289001354B5 /* MusicModel.m */; settings = {ASSET_TAGS = (); }; };
+		BCCBB59D1C3BF2CD001354B5 /* MusicCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBB59C1C3BF2CD001354B5 /* MusicCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		BCCBB5A01C3BF2FB001354B5 /* MusicCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBB59F1C3BF2FB001354B5 /* MusicCollectionReusableView.m */; settings = {ASSET_TAGS = (); }; };
+		BCCBB5A31C3BF334001354B5 /* MusicListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBB5A21C3BF334001354B5 /* MusicListCell.m */; settings = {ASSET_TAGS = (); }; };
+		BCCBB5A61C3BF4BD001354B5 /* MusicPlayingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBB5A51C3BF4BD001354B5 /* MusicPlayingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BCCBB5A91C3BF546001354B5 /* MusicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCBB5A81C3BF546001354B5 /* MusicDetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -269,6 +283,12 @@
 		BC6D7AEF1C33D6060093F8CC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		BC6D7AF11C33D6140093F8CC /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		BC6D7AF31C33D61E0093F8CC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BC96F1671C34C25400484F34 /* FoodCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCollectionViewCell.h; sourceTree = "<group>"; };
+		BC96F1681C34C25400484F34 /* FoodCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCollectionViewCell.m; sourceTree = "<group>"; };
+		BC96F16A1C34C27200484F34 /* FoodTitleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTitleCollectionViewCell.h; sourceTree = "<group>"; };
+		BC96F16B1C34C27200484F34 /* FoodTitleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTitleCollectionViewCell.m; sourceTree = "<group>"; };
+		BC96F16D1C34C3C700484F34 /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = "<group>"; };
+		BC96F16E1C34C3C700484F34 /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = "<group>"; };
 		BCBBA4A71C321A120087662A /* LoveLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCBBA4AB1C321A130087662A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCBBA4AD1C321A130087662A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -614,6 +634,28 @@
 		BCBBA7291C3277620087662A /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		BCBBA72C1C3279690087662A /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
 		BCBBA72D1C3279690087662A /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		BCCBB5881C3BDF2F001354B5 /* StepCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepCell.h; sourceTree = "<group>"; };
+		BCCBB5891C3BDF2F001354B5 /* StepCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepCell.m; sourceTree = "<group>"; };
+		BCCBB58B1C3BDFA7001354B5 /* StepModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepModel.h; sourceTree = "<group>"; };
+		BCCBB58C1C3BDFA7001354B5 /* StepModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepModel.m; sourceTree = "<group>"; };
+		BCCBB58E1C3BE6EF001354B5 /* FoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailViewController.h; sourceTree = "<group>"; };
+		BCCBB58F1C3BE6EF001354B5 /* FoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailViewController.m; sourceTree = "<group>"; };
+		BCCBB5911C3BE71A001354B5 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		BCCBB5921C3BE71A001354B5 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		BCCBB5941C3BF1CC001354B5 /* DetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailModel.h; sourceTree = "<group>"; };
+		BCCBB5951C3BF1CC001354B5 /* DetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailModel.m; sourceTree = "<group>"; };
+		BCCBB5971C3BF289001354B5 /* MusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
+		BCCBB5981C3BF289001354B5 /* MusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		BCCBB59B1C3BF2CD001354B5 /* MusicCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCollectionViewCell.h; sourceTree = "<group>"; };
+		BCCBB59C1C3BF2CD001354B5 /* MusicCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCollectionViewCell.m; sourceTree = "<group>"; };
+		BCCBB59E1C3BF2FB001354B5 /* MusicCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCollectionReusableView.h; sourceTree = "<group>"; };
+		BCCBB59F1C3BF2FB001354B5 /* MusicCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCollectionReusableView.m; sourceTree = "<group>"; };
+		BCCBB5A11C3BF334001354B5 /* MusicListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListCell.h; sourceTree = "<group>"; };
+		BCCBB5A21C3BF334001354B5 /* MusicListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListCell.m; sourceTree = "<group>"; };
+		BCCBB5A41C3BF4BD001354B5 /* MusicPlayingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicPlayingViewController.h; sourceTree = "<group>"; };
+		BCCBB5A51C3BF4BD001354B5 /* MusicPlayingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicPlayingViewController.m; sourceTree = "<group>"; };
+		BCCBB5A71C3BF546001354B5 /* MusicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailViewController.h; sourceTree = "<group>"; };
+		BCCBB5A81C3BF546001354B5 /* MusicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -689,6 +731,19 @@
 				BC6D7AE71C33CB1C0093F8CC /* ArticolDetailViewController.m */,
 			);
 			path = readCell;
+			sourceTree = "<group>";
+		};
+		BC96F1661C34C23A00484F34 /* FoodCell */ = {
+			isa = PBXGroup;
+			children = (
+				BC96F1671C34C25400484F34 /* FoodCollectionViewCell.h */,
+				BC96F1681C34C25400484F34 /* FoodCollectionViewCell.m */,
+				BC96F16A1C34C27200484F34 /* FoodTitleCollectionViewCell.h */,
+				BC96F16B1C34C27200484F34 /* FoodTitleCollectionViewCell.m */,
+				BCCBB5881C3BDF2F001354B5 /* StepCell.h */,
+				BCCBB5891C3BDF2F001354B5 /* StepCell.m */,
+			);
+			path = FoodCell;
 			sourceTree = "<group>";
 		};
 		BCBBA49E1C321A120087662A = {
@@ -1460,6 +1515,10 @@
 			children = (
 				BCBBA70A1C32229C0087662A /* FoodViewController.h */,
 				BCBBA70B1C32229C0087662A /* FoodViewController.m */,
+				BCCBB58E1C3BE6EF001354B5 /* FoodDetailViewController.h */,
+				BCCBB58F1C3BE6EF001354B5 /* FoodDetailViewController.m */,
+				BCCBB5911C3BE71A001354B5 /* PlayViewController.h */,
+				BCCBB5921C3BE71A001354B5 /* PlayViewController.m */,
 			);
 			path = FoodVc;
 			sourceTree = "<group>";
@@ -1480,6 +1539,10 @@
 			children = (
 				BCBBA7101C3222AF0087662A /* MusicViewController.h */,
 				BCBBA7111C3222AF0087662A /* MusicViewController.m */,
+				BCCBB5A41C3BF4BD001354B5 /* MusicPlayingViewController.h */,
+				BCCBB5A51C3BF4BD001354B5 /* MusicPlayingViewController.m */,
+				BCCBB5A71C3BF546001354B5 /* MusicDetailViewController.h */,
+				BCCBB5A81C3BF546001354B5 /* MusicDetailViewController.m */,
 			);
 			path = MusicVc;
 			sourceTree = "<group>";
@@ -1511,6 +1574,14 @@
 				BCBBA7291C3277620087662A /* HomeModel.m */,
 				BC6D7ADF1C33B1FC0093F8CC /* ArticolModel.h */,
 				BC6D7AE01C33B1FC0093F8CC /* ArticolModel.m */,
+				BC96F16D1C34C3C700484F34 /* FoodModel.h */,
+				BC96F16E1C34C3C700484F34 /* FoodModel.m */,
+				BCCBB58B1C3BDFA7001354B5 /* StepModel.h */,
+				BCCBB58C1C3BDFA7001354B5 /* StepModel.m */,
+				BCCBB5941C3BF1CC001354B5 /* DetailModel.h */,
+				BCCBB5951C3BF1CC001354B5 /* DetailModel.m */,
+				BCCBB5971C3BF289001354B5 /* MusicModel.h */,
+				BCCBB5981C3BF289001354B5 /* MusicModel.m */,
 			);
 			name = Model;
 			path = ThirdLibrary/Model;
@@ -1519,6 +1590,8 @@
 		BCBBA7241C32738C0087662A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BCCBB59A1C3BF2AF001354B5 /* MusicCell */,
+				BC96F1661C34C23A00484F34 /* FoodCell */,
 				BC6D7AE21C33B35B0093F8CC /* readCell */,
 				BCBBA72B1C32794A0087662A /* HomeCell */,
 				BCBBA7251C32738C0087662A /* GuidePageView.h */,
@@ -1535,6 +1608,19 @@
 				BCBBA72D1C3279690087662A /* HomeCell.m */,
 			);
 			name = HomeCell;
+			sourceTree = "<group>";
+		};
+		BCCBB59A1C3BF2AF001354B5 /* MusicCell */ = {
+			isa = PBXGroup;
+			children = (
+				BCCBB59B1C3BF2CD001354B5 /* MusicCollectionViewCell.h */,
+				BCCBB59C1C3BF2CD001354B5 /* MusicCollectionViewCell.m */,
+				BCCBB59E1C3BF2FB001354B5 /* MusicCollectionReusableView.h */,
+				BCCBB59F1C3BF2FB001354B5 /* MusicCollectionReusableView.m */,
+				BCCBB5A11C3BF334001354B5 /* MusicListCell.h */,
+				BCCBB5A21C3BF334001354B5 /* MusicListCell.m */,
+			);
+			name = MusicCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1781,6 +1867,7 @@
 				BCBBA6A81C321A3E0087662A /* MJRefreshStateHeader.m in Sources */,
 				BCBBA6951C321A3E0087662A /* FMDatabase.m in Sources */,
 				BCBBA6911C321A3E0087662A /* MMDrawerController.m in Sources */,
+				BCCBB5931C3BE71A001354B5 /* PlayViewController.m in Sources */,
 				BCBBA71F1C3256150087662A /* MyTabBarViewController.m in Sources */,
 				BCBBA6AB1C321A3E0087662A /* UIScrollView+MJExtension.m in Sources */,
 				BCBBA4B21C321A130087662A /* ViewController.m in Sources */,
@@ -1793,12 +1880,14 @@
 				BCBBA6A51C321A3E0087662A /* MJRefreshBackStateFooter.m in Sources */,
 				BC6D7AD51C336A110093F8CC /* HomeDetailViewController.m in Sources */,
 				BCBBA6B71C321A3E0087662A /* UIButton+WebCache.m in Sources */,
+				BCCBB5991C3BF289001354B5 /* MusicModel.m in Sources */,
 				BCBBA69B1C321A3E0087662A /* MJRefreshAutoFooter.m in Sources */,
 				BCBBA6DE1C321A3E0087662A /* split.c in Sources */,
 				BC6D7AE81C33CB1C0093F8CC /* ArticolDetailViewController.m in Sources */,
 				BCBBA6AF1C321A3E0087662A /* NSData+ImageContentType.m in Sources */,
 				BCBBA7271C32738C0087662A /* GuidePageView.m in Sources */,
 				BCBBA6B21C321A3E0087662A /* SDWebImageDecoder.m in Sources */,
+				BCCBB5A31C3BF334001354B5 /* MusicListCell.m in Sources */,
 				BCBBA69F1C321A3E0087662A /* MJRefreshHeader.m in Sources */,
 				BCBBA6A01C321A3E0087662A /* MJRefreshAutoGifFooter.m in Sources */,
 				BCBBA6871C321A3E0087662A /* AFHTTPRequestOperationManager.m in Sources */,
@@ -1807,9 +1896,12 @@
 				BCBBA6B51C321A3E0087662A /* SDWebImageManager.m in Sources */,
 				BCBBA6C11C321A3E0087662A /* ZLPanGestureRecognizer.m in Sources */,
 				BCBBA6921C321A3E0087662A /* MMDrawerVisualState.m in Sources */,
+				BCCBB58D1C3BDFA7001354B5 /* StepModel.m in Sources */,
 				BCBBA6D81C321A3E0087662A /* mask.c in Sources */,
+				BCCBB58A1C3BDF2F001354B5 /* StepCell.m in Sources */,
 				BCBBA6AE1C321A3E0087662A /* MKAnnotationView+WebCache.m in Sources */,
 				BCBBA68F1C321A3E0087662A /* FLSideSlipViewController.m in Sources */,
+				BCCBB5901C3BE6EF001354B5 /* FoodDetailViewController.m in Sources */,
 				BCBBA6B11C321A3E0087662A /* SDWebImageCompat.m in Sources */,
 				BCBBA6B01C321A3E0087662A /* SDImageCache.m in Sources */,
 				BCBBA6D61C321A3E0087662A /* CustomViewController.mm in Sources */,
@@ -1817,8 +1909,10 @@
 				BCBBA6891C321A3E0087662A /* AFNetworkReachabilityManager.m in Sources */,
 				BCBBA6B61C321A3E0087662A /* SDWebImagePrefetcher.m in Sources */,
 				BCBBA6BB1C321A3E0087662A /* UIImageView+HighlightedWebCache.m in Sources */,
+				BC96F16C1C34C27200484F34 /* FoodTitleCollectionViewCell.m in Sources */,
 				BCBBA68D1C321A3E0087662A /* AFURLResponseSerialization.m in Sources */,
 				BCBBA6A31C321A3E0087662A /* MJRefreshBackGifFooter.m in Sources */,
+				BC96F16F1C34C3C700484F34 /* FoodModel.m in Sources */,
 				BCBBA6D71C321A3E0087662A /* bitstream.c in Sources */,
 				BC6D7ADE1C33820B0093F8CC /* RecordViewController.m in Sources */,
 				BCBBA6BC1C321A3E0087662A /* UIImageView+WebCache.m in Sources */,
@@ -1835,6 +1929,7 @@
 				BCBBA6B81C321A3E0087662A /* UIImage+GIF.m in Sources */,
 				BCBBA6D91C321A3E0087662A /* QRCodeGenerator.m in Sources */,
 				BCBBA68A1C321A3E0087662A /* AFSecurityPolicy.m in Sources */,
+				BCCBB59D1C3BF2CD001354B5 /* MusicCollectionViewCell.m in Sources */,
 				BCBBA6AA1C321A3E0087662A /* MJRefreshConst.m in Sources */,
 				BC6D7AE51C33B37A0093F8CC /* ArticolTableViewCell.m in Sources */,
 				BCBBA6A61C321A3E0087662A /* MJRefreshGifHeader.m in Sources */,
@@ -1847,6 +1942,8 @@
 				BCBBA6AD1C321A3E0087662A /* UIView+MJExtension.m in Sources */,
 				BCBBA7181C3222C30087662A /* ReadViewController.m in Sources */,
 				BCBBA6AC1C321A3E0087662A /* UIScrollView+MJRefresh.m in Sources */,
+				BCCBB5A61C3BF4BD001354B5 /* MusicPlayingViewController.m in Sources */,
+				BC96F1691C34C25400484F34 /* FoodCollectionViewCell.m in Sources */,
 				BCBBA6DC1C321A3E0087662A /* qrspec.c in Sources */,
 				BCBBA6C21C321A3E0087662A /* ZLSwipeableView.m in Sources */,
 				BCBBA68C1C321A3E0087662A /* AFURLRequestSerialization.m in Sources */,
@@ -1856,11 +1953,14 @@
 				BCBBA6991C321A3E0087662A /* FMResultSet.m in Sources */,
 				BCBBA6BE1C321A3E0087662A /* Carousel.m in Sources */,
 				BCBBA4AF1C321A130087662A /* AppDelegate.m in Sources */,
+				BCCBB5961C3BF1CD001354B5 /* DetailModel.m in Sources */,
 				BCBBA4AC1C321A130087662A /* main.m in Sources */,
 				BCBBA7221C32606D0087662A /* LeftViewController.m in Sources */,
+				BCCBB5A01C3BF2FB001354B5 /* MusicCollectionReusableView.m in Sources */,
 				BCBBA70C1C32229C0087662A /* FoodViewController.m in Sources */,
 				BCBBA6DB1C321A3E0087662A /* qrinput.c in Sources */,
 				BCBBA69D1C321A3E0087662A /* MJRefreshComponent.m in Sources */,
+				BCCBB5A91C3BF546001354B5 /* MusicDetailViewController.m in Sources */,
 				BCBBA6981C321A3E0087662A /* FMDatabaseQueue.m in Sources */,
 				BCBBA6C01C321A3E0087662A /* NBWaterFlowLayout.m in Sources */,
 				BCBBA6901C321A3E0087662A /* MMDrawerBarButtonItem.m in Sources */,

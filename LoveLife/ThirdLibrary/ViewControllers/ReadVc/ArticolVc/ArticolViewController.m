@@ -36,6 +36,7 @@
     _tableView.header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadNewData)];
     _tableView.footer = [MJRefreshAutoFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
     [_tableView.header beginRefreshing];
+
 }
 
 -(void)loadNewData
